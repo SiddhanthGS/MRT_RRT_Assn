@@ -1,0 +1,4 @@
+sensor_msgs/Image image
+---
+int32[] ids
+std_msgs/Float64MultiArray coordinates

@@ -1,0 +1,30 @@
+[0.385s] Invoking command in '/home/siddy/mrt_ws_2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddy/mrt_ws_2/install/aruco_detect_pkg:/home/siddy/mrt_ws/install/siddhanth_s_assn_2:/home/siddy/mrt_ws/install/siddhanth_Shenai_assn_2:/home/siddy/ros2_ws/install/my_robot_controller:/home/siddy/ros2_ws/install/launch_testing_examples:/home/siddy/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siddy/ros2_ws/install/examples_rclpy_minimal_service:/home/siddy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_client:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siddy/ros2_ws/install/examples_rclpy_guard_conditions:/home/siddy/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/siddy/mrt_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddy/mrt_ws_2/install/tutorial_interfaces
+[0.421s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.017s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.079s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.099s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.120s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.681s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.744s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.745s]   By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.746s]   project has asked CMake to find a package configuration file provided by
+[1.748s]   "tutorial_interfaces", but CMake did not find one.
+[1.749s] 
+[1.749s]   Could not find a package configuration file provided by
+[1.750s]   "tutorial_interfaces" with any of the following names:
+[1.750s] 
+[1.751s]     tutorial_interfacesConfig.cmake
+[1.752s]     tutorial_interfaces-config.cmake
+[1.752s] 
+[1.753s]   Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH
+[1.754s]   or set "tutorial_interfaces_DIR" to a directory containing one of the above
+[1.754s]   files.  If "tutorial_interfaces" provides a separate development package or
+[1.755s]   SDK, be sure it has been installed.
+[1.756s] 
+[1.756s] [0m
+[1.761s] -- Configuring incomplete, errors occurred!
+[1.761s] See also "/home/siddy/mrt_ws_2/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.776s] Invoked command in '/home/siddy/mrt_ws_2/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddy/mrt_ws_2/install/aruco_detect_pkg:/home/siddy/mrt_ws/install/siddhanth_s_assn_2:/home/siddy/mrt_ws/install/siddhanth_Shenai_assn_2:/home/siddy/ros2_ws/install/my_robot_controller:/home/siddy/ros2_ws/install/launch_testing_examples:/home/siddy/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siddy/ros2_ws/install/examples_rclpy_minimal_service:/home/siddy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_client:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siddy/ros2_ws/install/examples_rclpy_guard_conditions:/home/siddy/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/siddy/mrt_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddy/mrt_ws_2/install/tutorial_interfaces

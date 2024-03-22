@@ -1,0 +1,43 @@
+[0.638s] Invoking command in '/home/siddy/mrt_ws_2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddy/mrt_ws_2/install/aruco_detect_pkg:/home/siddy/mrt_ws/install/siddhanth_s_assn_2:/home/siddy/mrt_ws/install/siddhanth_Shenai_assn_2:/home/siddy/ros2_ws/install/my_robot_controller:/home/siddy/ros2_ws/install/launch_testing_examples:/home/siddy/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siddy/ros2_ws/install/examples_rclpy_minimal_service:/home/siddy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_client:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siddy/ros2_ws/install/examples_rclpy_guard_conditions:/home/siddy/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/siddy/mrt_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddy/mrt_ws_2/install/tutorial_interfaces
+[1.216s] -- The C compiler identification is GNU 11.4.0
+[1.729s] -- The CXX compiler identification is GNU 11.4.0
+[1.809s] -- Detecting C compiler ABI info
+[2.491s] -- Detecting C compiler ABI info - done
+[2.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.548s] -- Detecting C compile features
+[2.553s] -- Detecting C compile features - done
+[2.572s] -- Detecting CXX compiler ABI info
+[3.288s] -- Detecting CXX compiler ABI info - done
+[3.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.335s] -- Detecting CXX compile features
+[3.338s] -- Detecting CXX compile features - done
+[3.371s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.838s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.695s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[6.055s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.105s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.194s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.964s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.908s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.076s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[8.076s]   By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this
+[8.076s]   project has asked CMake to find a package configuration file provided by
+[8.077s]   "tutorial_interfaces", but CMake did not find one.
+[8.077s] 
+[8.077s]   Could not find a package configuration file provided by
+[8.077s]   "tutorial_interfaces" with any of the following names:
+[8.077s] 
+[8.084s]     tutorial_interfacesConfig.cmake
+[8.084s]     tutorial_interfaces-config.cmake
+[8.085s] 
+[8.085s]   Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH
+[8.085s]   or set "tutorial_interfaces_DIR" to a directory containing one of the above
+[8.085s]   files.  If "tutorial_interfaces" provides a separate development package or
+[8.085s]   SDK, be sure it has been installed.
+[8.086s] 
+[8.086s] [0m
+[8.094s] -- Configuring incomplete, errors occurred!
+[8.094s] See also "/home/siddy/mrt_ws_2/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[8.121s] Invoked command in '/home/siddy/mrt_ws_2/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddy/mrt_ws_2/install/aruco_detect_pkg:/home/siddy/mrt_ws/install/siddhanth_s_assn_2:/home/siddy/mrt_ws/install/siddhanth_Shenai_assn_2:/home/siddy/ros2_ws/install/my_robot_controller:/home/siddy/ros2_ws/install/launch_testing_examples:/home/siddy/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/siddy/ros2_ws/install/examples_rclpy_minimal_service:/home/siddy/ros2_ws/install/examples_rclpy_minimal_publisher:/home/siddy/ros2_ws/install/examples_rclpy_minimal_client:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_server:/home/siddy/ros2_ws/install/examples_rclpy_minimal_action_client:/home/siddy/ros2_ws/install/examples_rclpy_guard_conditions:/home/siddy/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/siddy/mrt_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddy/mrt_ws_2/install/tutorial_interfaces
